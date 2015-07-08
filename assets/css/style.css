@@ -1,13 +1,47 @@
 #mc_embed_signup{
-	background:#fff; 
-	clear:left; 
-	font:14px Helvetica,Arial,sans-serif; 
+	background: #fff;  
+	font: 14px Helvetica,Arial,sans-serif; 
+}
+
+#mc_embed_signup form {
+	padding: 20px 40% !important;
 }
 
 .mc-field-group { 
 	padding: 0 !important;
+	min-height: 0 !important;
 }
 
-.email {
+.button {
 	width: 300px !important;
+}
+
+.email, .mce_inline_error {
+	width: 300px !important;
+}
+
+form {
+	margin: 0 auto;
+}
+
+.item > img {
+	width: 100%;
+}
+
+.carousel-inner {
+	position: relative;
+}
+
+.fa-4x {
+	bottom: 45%;
+	position: absolute;
+	color: white;
+}
+
+.fa-chevron-circle-left {	
+	left: 3%;
+}
+
+.fa-chevron-circle-right {
+	right: 3%;
 }
