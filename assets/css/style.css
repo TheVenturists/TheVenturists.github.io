@@ -14,6 +14,7 @@
 
 .button {
 	width: 300px !important;
+	background-color: #ffab40 !important;
 }
 
 .email, .mce_inline_error {
@@ -44,4 +45,17 @@ form {
 
 .fa-chevron-circle-right {
 	right: 3%;
+}
+
+.col-md-6 > img {
+	width: 95%;
+}
+
+#wrapper {
+	min-height: 100vh !important;
+}
+
+.btn {
+	left: 45%;
+	position: absolute;
 }
